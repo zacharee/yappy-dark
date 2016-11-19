@@ -1,2 +1,12 @@
+@color-1  #191919;
+@color-2  #333;
+
 /* body background */
 body {
+  background-color: @color-1 !important;
+}
+
+/* addons background */
+.bg-light.lter, .bg-gradient {
+  background-color: @color-2;
+}
