@@ -62,7 +62,7 @@ output {
   border-right: 1px solid var(--element-second) !important;
 }
 .panel {
-  background-color: inherit;
+  background-color: var(--element-main) !important;
 }
 
 /* footer */
