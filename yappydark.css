@@ -3,13 +3,15 @@
   --body-main: #333;
   --body-second: #252525;
   --element-main: #444;
+  --element-second: #555;
   --link-main: #999;
   --text-main: #ccc;
 }
 
-/* body background */
+/* body */
 body {
   background-color: var(--background-main) !important;
+  color: var(--text-main) !important;
 }
 
 /* addons background */
@@ -53,3 +55,37 @@ output {
 #nav .w-f {
   background-color: var(--element-main) !important;
 }
+
+/* panel/table */
+.panel .table-striped>thead th {
+  background-color: var(--element-main) !important;
+  border-right: 1px solid var(--element-second) !important;
+}
+
+/* footer */
+.bg-white {
+  background-color: var(--body-main) !important;
+}
+
+/* contact background */
+#contactsDiv .list-group-item,
+#contactsDiv .list-group-item .bg-white {
+  background-color: var(--element-main) !important;
+}
+
+/* modal */
+.fancybox-skin,
+.modal-content {
+  background-color: var(--element-main) !important;
+}
+
+/* panel heading */
+.panel-heading {
+  background-color: var(--body-main) !important;
+}
+
+/* item in list */
+.list-group-item {
+  background-color: var(--element-main) !important;
+}
+
