@@ -1,14 +1,55 @@
 :root {
-  --color-1: #191919;
-  --color-2: #333;
+  --background-main: #191919;
+  --body-main: #333;
+  --body-second: #252525;
+  --element-main: #444;
+  --link-main: #999;
+  --text-main: #ccc;
 }
 
 /* body background */
 body {
-  background-color: var(--color-1) !important;
+  background-color: var(--background-main) !important;
 }
 
 /* addons background */
 .bg-light.lter, .bg-gradient {
-  background-color: var(--color-2) !important;
+  background-color: var(--body-main) !important;
+}
+
+/* message list background */
+#chatMessageList {
+  background-color: var(--body-second) !important;
+}
+
+/* convo tile */
+#chat-nav .list-group-item {
+  background-color: var(--body-second) !important;
+}
+
+/* convo tile active */
+#chat-nav .list-group-item.active {
+  background-color: var(--element-main) !important;
+}
+
+/* links */
+a {
+  color: var(--link-main) !important;
+}
+
+/* form background */
+.form-control {
+  background-color: var(--element-main) !important;
+}
+
+/* form and output text */
+.form-control,
+output {
+  color: var(--text-main);
+}
+
+/* navbar */
+.nav-primary>ul>li>a,
+#nav .w-f {
+  background-color: var(--element-main) !important;
 }
