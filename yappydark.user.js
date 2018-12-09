@@ -12,4 +12,4 @@
 
 /*global jQuery*/
 
-jQuery('head').append('<link rel="stylesheet" type="text/css" href="https://rawgit.com/zacharee/yappy-dark/master/yappydark.css">');
+jQuery('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zacharee/yappy-dark@master/yappydark.css">');
